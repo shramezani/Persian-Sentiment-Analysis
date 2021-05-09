@@ -3,5 +3,4 @@ pip install hazm ==0.7.0
 pip install pandas == 1.2.4
 pip install gensim==4.0.1
 pip install numpy==1.19.5
-
 pip install flask==1.1.2
