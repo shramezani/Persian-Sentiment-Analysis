@@ -1,0 +1,5 @@
+pip install fasttext == 0.9.2
+pip install hazm ==0.7.0
+pip install pandas == 1.2.4
+pip install gensim==4.0.1
+pip install numpy==1.19.5
