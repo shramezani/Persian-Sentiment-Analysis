@@ -1,6 +1,6 @@
 # Persian-Sentiment-Analysis
 
-<h1><strong>This repository contains a simple sentiment analysis for Persian language</strong></h1>
+<strong>This repository contains a simple sentiment analysis for Persian language</strong>
 
 ## Install
 
