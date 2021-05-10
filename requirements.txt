@@ -7,4 +7,3 @@ pandas == 1.2.4
 gensim==4.0.1
 flask==1.1.2
 imblearn==0.8.0
-numpy==1.19.5
