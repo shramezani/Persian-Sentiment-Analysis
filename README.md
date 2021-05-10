@@ -47,4 +47,4 @@ To run this source code please create a new tensorflow conda environment first a
 ## REST API
 
 - We are using Flask to deploy the pretrained model. Please open *index.html* which is located in the Code/WebPage directory
-and also run ```shell python flask-restapi.py ```  command in the Code directory. 
+and also run ```python flask-restapi.py ```  command in the Code directory. 
