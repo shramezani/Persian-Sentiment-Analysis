@@ -1,7 +1,7 @@
 
 #Declare global variables
 SEED =1234
-EMB_SIZE =100
+EMB_SIZE =300
 SEQUENCE_LEN = 128
 CLASS_NUM = 5
 

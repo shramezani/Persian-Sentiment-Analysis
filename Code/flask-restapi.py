@@ -3,12 +3,13 @@ import settings
 from flask import Flask, render_template, request, redirect, url_for
 import pickle
 import numpy as np
+import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model
 
 # load the pipeline object
 model = load_model(settings.MODEL_PATH)
-
+# load tokenizer
 with open(settings.TOKENIZER_PATH, 'rb') as handle:
     tokenizer = pickle.load(handle)
 
@@ -37,7 +38,7 @@ app = Flask(__name__)
 # render default webpage
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('index.html')
 
 # when the post method detect, then redirect to success function
 
